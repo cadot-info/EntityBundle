@@ -1,14 +1,9 @@
 # FileService
 
-Functions for manipulate files
+Functions for Entities
 
-- extension (name of file)             extract extension of filename
-- copydir(source, destination)         copy a directory recursively  
-- deletedir(directory)                 remove directory recursively
-- movedir (directory)                  move directory with recursivity
-- sanitize (filename, remove space?)   clean a filename
-- beautify (filename)                  for remove space in string
+- reorder (repository, data, limit, offset)              reorder a array by findall or by data gived
+- getAllOfFields($repository, $field, $removeDoublon)    rerurn fields of Repository in string with/without doublons
+- sortArrayObjetByArray($objets, $function, $array)      reorder array of objetcs by array
 
-This code is collect in internet of many times and many web site.
-# EntityBundle
-# EntityBundle
+Certain code is collect in internet of many times and many web site.
