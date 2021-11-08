@@ -1,0 +1,30 @@
+{
+    "name": "cadot.info/entitybundle",
+    "description": "Functions on files for Symfony 5",
+    "type": "library",
+    "require": {
+      "php": ">=7.2.5"
+     
+  }
+  ,
+  "homepage": "https://github.com/cadot-info/EntityBundle#readme",
+      "keywords": [
+        "symfony","Entity","reorder","service","cadot.info"
+        
+      ],
+    "license": "proprietary",
+    "autoload": {
+      "psr-4": {
+        "Cadotinfo\\EntityBundle\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "cadot.info",
+        "email": "composer@cadot.info"
+      }
+    ],
+  
+    "minimum-stability": "dev"
+  }
+  
